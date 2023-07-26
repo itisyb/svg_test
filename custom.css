@@ -1,0 +1,42 @@
+/* Main container */
+.easepick {
+    background-color: #282c34;
+    border-color: #444;
+}
+
+/* Header (month and year) */
+.easepick__header {
+    color: white;
+}
+
+/* Navigation buttons */
+.easepick__prev-button,
+.easepick__next-button {
+    color: white;
+}
+
+/* Days of the week */
+.easepick__weekday {
+    color: white;
+}
+
+/* Individual dates */
+.easepick__day {
+    color: white;
+}
+
+/* Selected date */
+.easepick__day--selected {
+    background-color: #61dafb;
+    color: black;
+}
+
+/* Today's date */
+.easepick__day--current {
+    color: #61dafb;
+}
+
+/* Disabled dates */
+.easepick__day--disabled {
+    color: #666;
+}
